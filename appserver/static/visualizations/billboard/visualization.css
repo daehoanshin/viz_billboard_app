@@ -1,0 +1,22 @@
+{
+  "name": "billboard",
+  "version": "1.0.0",
+  "description": "Visualization app template. Put a description here.",
+  "main": "visualization.js",
+  "scripts": {
+    "build": "node ./node_modules/webpack/bin/webpack.js",
+    "devbuild": "node ./node_modules/webpack/bin/webpack.js --progress",
+    "watch": "node ./node_modules/webpack/bin/webpack.js -d --watch --progress"
+  },
+  "author": "Splunk",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.12.6"
+  },
+  "dependencies": {
+    "billboard.js": "^1.12.0",
+    "d3": "^5.15.0",
+    "jquery": "^2.2.4",
+    "underscore": "^1.9.2"
+  }
+}

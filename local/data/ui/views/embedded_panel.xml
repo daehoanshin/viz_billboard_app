@@ -1,0 +1,22 @@
+<dashboard>
+  <label>Division panel</label>
+  <row>
+    <panel>
+      <viz depends="$hidden$" type="viz_billboard_app.billboard">
+        <search>
+          <query>| inputlookup data.csv
+| convert timeformat="%Y-%m-%d %H:%M:%S" ctime(_time) AS x
+| fields - _time
+| table x *
+| head 10</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="viz_billboard_app.billboard.bindId">#linkedTooltips_1</option>
+        <option name="viz_billboard_app.billboard.mainColor">#f7bc38</option>
+        <option name="viz_billboard_app.billboard.maxValue">100</option>
+      </viz>
+    </panel>
+  </row>
+</dashboard>
