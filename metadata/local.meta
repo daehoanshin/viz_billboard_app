@@ -1,0 +1,17 @@
+[views/embedded_panel]
+version = 8.0.3
+modtime = 1591284189.063463000
+
+[views/division_panel]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = nobody
+version = 8.0.3
+modtime = 1591286086.773912000
+
+[views/division_panel_equals]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 8.0.3
+modtime = 1591286105.140728000

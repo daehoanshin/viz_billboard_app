@@ -22,7 +22,7 @@ define([
         this.$el = $(this.el);
 
         // Add a css selector class
-        this.$el.addClass('splunk-radial-meter');
+        this.$el.addClass('splunk-billboard');
       },
 
       getInitialDataParams: function () {

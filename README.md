@@ -30,4 +30,4 @@ The standin viz isn't very interesting, so you will want to add your own code. Y
 ## More Information
 For more information on building custom visualizations including a tutorial, API overview, and more see:
 
-http://docs.splunk.com/Documentation/Splunk/6.5.0/AdvancedDev/CustomVizDevOverview
+https://docs.splunk.com/Documentation/Splunk/8.0.4/AdvancedDev/CustomVizDevOverview

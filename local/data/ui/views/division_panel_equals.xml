@@ -1,5 +1,5 @@
 <dashboard>
-  <label>Division panel #id selecter</label>
+  <label>Division panel equals</label>
   <row>
     <panel>
       <html>
@@ -35,7 +35,7 @@
 | convert timeformat="%Y-%m-%d %H:%M:%S" ctime(_time) AS x
 | fields - _time
 | table x *
-| head 100</query>
+| head 10</query>
           <earliest>-24h@h</earliest>
           <latest>now</latest>
         </search>
@@ -55,7 +55,7 @@
 | convert timeformat="%Y-%m-%d %H:%M:%S" ctime(_time) AS x
 | fields - _time
 | table x *
-| head 50</query>
+| head 10</query>
           <earliest>-24h@h</earliest>
           <latest>now</latest>
         </search>
