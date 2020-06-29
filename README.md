@@ -8,7 +8,7 @@ This is the basic template for a splunk visualization app. This teamplate is mea
 
 ## Building the visualization
 
-	NOTE: You must have npm installed in oder to build. If you do not have npm installed, install it and come back. 
+	NOTE: You must have npm installed in order to build. If you do not have npm installed, install it and come back. 
 	
 The visualization contained in this app must be built using web pack in order to run it on Splunk. There is a basic webpack configuration built in to the app. To build from the command line, first, cd to the *visualization/billboard* directory. On the first run you will have to install the dependeincies with npm:
 
